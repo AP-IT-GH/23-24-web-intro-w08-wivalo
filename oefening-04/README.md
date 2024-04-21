@@ -11,4 +11,10 @@
  - Ga op zoek naar een geschikte API die in lijn ligt van jouw topic voor jouw langlopende taak.
  - Zoek minstens 3 endpoints op van de API.
 
- *Schrijf hier de 3 endpoints op.*
+voor het opzoeken van verschillende DNS-records voor het domein wivalolighting.com met behulp van de Google Public DNS API:
+GET https://dns.google/resolve?name=wivalolighting.com&type=A
+GET https://dns.google/resolve?name=wivalolighting.com&type=AAAA
+GET https://dns.google/resolve?name=wivalolighting.com&type=MX
+
+
+
